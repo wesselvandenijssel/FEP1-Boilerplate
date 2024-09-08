@@ -1,20 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<meta
+			name="description"
+			content="Neem contact op met Wessel van den IJssel, junior webdeveloper"
+		/>
+		<title>Contact - Wessel van den IJssel</title>
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../contact.css" />
 	</head>
-	<body>
-		<header>
-			<nav>
-				<a href="/">Home</a>
-				<a href="/nested/about.html">About</a>
-				<a href="/nested/contact.html">Contact</a>
+	<body class="page">
+		<header class="header">
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li class="header__nav-item">
+						<a href="../index.html" class="header__nav-link"
+							>Home</a
+						>
+					</li>
+					<li class="header__nav-item">
+						<a href="./about.html" class="header__nav-link"
+							>About</a
+						>
+					</li>
+					<li class="header__nav-item">
+						<a href="./contact.html" class="header__nav-link"
+							>Contact</a
+						>
+					</li>
+				</ul>
 			</nav>
 		</header>
-		<main>
-			<h1>Contact</h1>
+
+		<main class="main-content">
+			<section class="contact">
+				<h1 class="contact__title">Neem contact op</h1>
+				<p class="contact__text">
+					Als u interesse heeft in mijn werk of als u hulp nodig heeft
+					met uw eigen webdevelopment-project, aarzel dan niet om
+					contact met mij op te nemen. Vul het onderstaande formulier
+					in of gebruik de contactinformatie om mij direct te
+					bereiken. Ik streef ernaar om binnen 24 uur te reageren.
+				</p>
+
+				<div class="contact__info">
+					<h2 class="contact__subtitle">Direct contact</h2>
+					<p>
+						LinkedIn:
+						<a
+							href="https://www.linkedin.com/in/wessel-van-den-ijssel/"
+							class="contact__link"
+							target="_blank"
+							>Wessel van den IJssel</a
+						>
+					</p>
+					<p>
+						Mail:
+						<a
+							href="mailto:info@wesselvandenijssel.nl"
+							class="contact__link"
+							>info@wesselvandenijssel.nl</a
+						>
+					</p>
+					<p>
+						Telefoon:
+						<a href="tel:+31631089181" class="contact__link"
+							>06-31089181</a
+						>
+					</p>
+				</div>
+			</section>
 		</main>
+
+		<footer class="footer">
+			<p class="footer__text">
+				&copy; 2024 Wessel van den IJssel. Alle rechten voorbehouden.
+			</p>
+		</footer>
 	</body>
 </html>
